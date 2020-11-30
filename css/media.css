@@ -1,0 +1,102 @@
+@media(max-width:991px)
+{
+    .accessories-section .access-samples .slick-next
+    {
+        left: 19.5%;
+    }
+    .accessories-section .access-samples .slick-prev
+    {
+        left: 14.5%;
+    }
+}
+
+@media(max-width:767px)
+{
+    .navigationbar .navbar-header
+    {
+        float: unset;
+    }
+    .navigationbar .navbar-brand
+    {
+        margin-top: -6%;
+    }
+    .navigationbar .navbar-brand img
+    {
+        height: 70px;
+    }
+    header
+    {
+        background: #7c6a4d;
+    }
+    .navigationbar
+    {
+        padding-top: 1em;
+        background: #7c6a4d;
+    }
+    .navigationbar .navbar-nav
+    {
+        padding: 5px;
+    }
+    .navigationbar .navbar-nav li
+    {
+        display: inline-block;
+        width: 49%;
+    }
+    .coco-slider
+    {
+        margin-top: 0;
+    }
+    .coco-slider .carousel-inner img
+    {
+        height: 350px;
+    }
+    .welcome-site .row
+    {
+        display: block;
+    }
+     .accessories-section .access-samples .slick-prev
+    {
+        left: 13%;
+    }
+}
+
+@media(max-width:555px)
+{
+    .welcome-site .welcome-img
+    {
+        padding: 1em 1.5em 2.5em;
+    }
+    .welcome-site .welcome-img img
+    {
+        height: 200px;
+    }
+}
+@media(max-width:460px)
+{
+    .welcome-site .welcome-img
+    {
+        padding: 1em 1.5em 1.5em;
+    }
+    .welcome-site .welcome-img img
+    {
+        height: 120px;
+    }
+     .accessories-section .access-samples .slick-prev
+    {
+        left: 6.5%;
+    }
+     .accessories-section .access-samples .slick-next
+    {
+        left: 17.5%;
+    }
+    .navigationbar .navbar-brand 
+    {
+        margin-top:  -11%;
+    }
+    header .top-head
+    {
+        display: block;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,410 @@
+.page-body
+{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+    font-family: 'hecenSaudiArabia' ;
+    color: #777777;    
+}
+h1, h2, h3, h4, h5, h6
+{
+    color: #f16d7d;
+    font-weight: bold;
+    font-family: 'El Messiri', sans-serif;
+}
+a:hover, a:focus
+{
+    text-decoration: none;
+}
+/* start-header */
+
+header
+{
+    position: relative;
+    background: rgba(124, 106, 77, 0.5);
+    z-index: 1;
+}
+header .top-head
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5em;
+    color: white;
+}
+header .top-head a
+{
+    color: white;
+}
+/* End-header */
+
+/* start-navbar */
+
+.navigationbar
+{
+    position: relative;
+    z-index: 1;
+    background: rgba(124, 106, 77, 0.5);
+}
+.navigationbar .navbar-inverse
+{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-nav>li
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar-inverse .navbar-nav>li>a 
+{
+    background: url(../images/item-bg.png) no-repeat bottom center;
+    background-size: contain;
+    text-align: center;
+    padding: 1.3em;
+    font-size: 18px;
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus
+{
+    background-image: url(../images/item-hov-bg.png);
+}
+.navbar-inverse .navbar-nav>li>a i
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.navbar-brand
+{
+    margin-top: -9%;
+}
+.navbar-brand img
+{
+    height: 100px;
+}
+.navbar-header
+{
+    float: left;
+}
+/* End-navbar */
+
+/* start-slider */
+
+.coco-slider
+{
+    position: relative;
+    margin-top: -10em;
+}
+.coco-slider .carousel-inner img
+{
+    width: 100%;
+    height: 600px;
+}
+/* End-slider */
+
+/* start-welcome-site */
+
+.welcome-site
+{
+    margin: 1em auto;
+}
+.welcome-site .headding-title img
+{
+    margin: auto;
+}
+.welcome-site .headding-title
+{
+    margin-bottom: 1em;
+}
+.welcome-site .row
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.welcome-site .welcome-img
+{
+    background: url(../images/welcome-bg.jpg) no-repeat bottom center;
+    background-size: contain;
+    padding: 1.5em 1em 3em;
+}
+.welcome-site .welcome-img img
+{
+    height: 250px;
+    margin: auto
+}
+.welcome-site .btn
+{
+    background: #f16d7d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 20px;
+    box-shadow: 0px 7px 4px #7c6a4d;
+}
+.welcome-site .btn:hover,
+.welcome-site .btn:focus
+{
+    background: #d44c5c;
+}
+.welcome-site .btn:active
+{
+    box-shadow: 0px 0px 0px #7c6a4d;
+}
+
+/* End-welcome-site */
+
+/* start-accessories-section */
+
+.accessories-section
+{
+    margin: 1em auto;
+}
+h2
+{
+    width: 200px;
+    margin: 20px auto;
+    color: #7c6a4d;
+    text-align: center;
+    position: relative;
+}
+h2::before
+
+{
+    content: "";
+    position: absolute;
+    border: 2px solid #f16d7d;
+    width: 25px;
+    height: 25px;
+    top:-10px;
+    right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+h2::after
+
+{
+    content: "";
+    position: absolute;
+    border: 2px solid #f16d7d;
+    width: 25px;
+    height: 25px;
+    bottom:-10px;
+    left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+.accessories-section .access-samples
+{
+    background: #9fd5c7;
+    padding: 5px
+}
+.accessories-section .access-samples .item
+{
+    position: relative;
+    margin: 5px;
+}
+.accessories-section .access-samples .item p
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #777777;
+    color: white;
+    padding: 0.5em 2em 2em 0.5em;
+    padding-top: 
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+.accessories-section .access-samples .item img
+{
+    width: 100%;
+    height: 300px;
+}
+.accessories-section .access-samples .slick-next:before,
+.accessories-section .access-samples .slick-prev:before
+{
+    color: white;
+    padding: 5px;
+    background: #9fd5c7;
+}
+.accessories-section .access-samples .slick-next,
+.accessories-section .access-samples .slick-prev
+{
+    top:-15px;
+}
+.accessories-section .access-samples .slick-prev
+{
+    left: 7.5%;
+}
+.accessories-section .access-samples .slick-next
+{
+    left: 10.5%;
+    right: unset;
+}
+.accessories-section h4
+{
+    background: #9fd5c7;
+    display: inline-block;
+    margin-bottom: 0;
+    color: white;
+    padding: 5px;
+}
+
+/* End-accessories-section */
+
+/* start-client-section */
+
+.client-section ul
+{
+    text-align: center;
+    margin: 2em auto;
+}
+.client-section ul li
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.client-section ul li img
+{
+    height: 100px;
+    width: 100%;
+}
+/* End-client-section */
+
+/* start-bottom-section */
+
+.bottom-section .contact-us
+{
+    background: url(../images/bottom-bg.jpg) no-repeat top center;
+    background-size: cover;
+    color: #9fd5c7;
+}
+.bottom-section .contact-us img
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.bottom-section .contact-us p:first-of-type
+{
+    margin-bottom: 1em;
+}
+.bottom-section form
+{
+    margin-top: 2em;
+}
+.bottom-section form .form-control
+{
+    background: transparent;
+    border-color: #9fd5c7;
+    border-radius: 0;
+}
+.bottom-section form .btn
+{
+    float: left;
+    background: #f16d7d;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 20px;
+}
+.bottom-section .contact-us i
+{
+    color: #9fd5c7;
+    border: 1px solid #9fd5c7;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+    height: 35px;
+    width: 35px;
+}
+footer
+{
+    color: #f16d7d;
+    padding: 5px;
+    margin: 0.5em auto;
+}
+footer a
+{
+    color: #f16d7d;
+    display: inline-block;
+    transition: ease all 0.4s;
+}
+footer a:hover,
+footer a:focus
+{
+    font-size: 18px;
+    color: #9fd5c7;
+}
+/* End-bottom-section */
+
+/**********************/
+
+/* start-page-content */
+
+.page-content
+{
+    margin-top: 1em;
+}
+.page-content h3
+{
+    color: #7c6a4d;
+}
+.page-content i
+{
+    color: #f16d7d;
+}
+.page-content .btn
+{
+    float: left;
+    background: #f16d7d;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 20px;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+.page-content .list-product img
+{
+    height: 250px;
+    width: 100%;
+}
+ p.lead
+{
+    color: #f16d7d;
+    font-weight: bold;
+    transition: ease all 0.4s;
+}
+.page-content .list-product p.lead:hover,
+.page-content .list-product p.lead:focus
+{
+    color: #0ab2aa;
+}
+.page-content .list-product ul
+{
+    background: #7c6a4d;
+    padding: 0.5em;
+    margin-top: 1.5em;
+    border-radius: 5px;
+}
+.page-content .list-product ul li
+{
+    margin-bottom: 0.5em;
+}
+.page-content .list-product ul li a
+{
+    color: white;
+    display: block;
+    font-size: 18px;
+    transition: ease all 0.4s;
+}
+.page-content .list-product ul li a:hover,
+.page-content .list-product ul li a:focus
+{
+    background: #0ab2aa;
+    padding: 0.5em;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* End-page-content */
